@@ -1,0 +1,52 @@
+{
+  "name": "hispasms/hispasms_api_php_client",
+  "description": "HispaSMS SMS library for PHP",
+  "version": "2.0.0",
+  "keywords": [
+    "hispasms",
+    "sms",
+    "hlr",
+    "msisdn",
+    "api"
+  ],
+  "homepage": "https://dev.hispasms.com",
+  "authors": [
+    {
+      "name": "",
+      "email": "dev@hispasms.com"
+    }
+  ],
+  "support": {
+    "email": "soporte@hispasms.com"
+  },
+  "license": "Apache-2.0",
+  "minimum-stability": "dev",
+  "require": {
+    "netresearch/jsonmapper": "0.9.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "hispasms\\": "hispasms/",
+      "hispasms\\api\\": "hispasms/api/",
+      "hispasms\\api\\client\\": "hispasms/api/client/",
+      "hispasms\\api\\configuration\\": "hispasms/api/configuration/",
+      "hispasms\\api\\model\\": "hispasms/api/model/",
+      "hispasms\\api\\model\\account\\": "hispasms/api/model/account/",
+      "hispasms\\api\\model\\conversion\\": "hispasms/api/model/conversion/",
+      "hispasms\\api\\model\\nc\\": "hispasms/api/model/nc/",
+      "hispasms\\api\\model\\nc\\logs\\": "hispasms/api/model/nc/logs/",
+      "hispasms\\api\\model\\nc\\notify\\": "hispasms/api/model/nc/notify/",
+      "hispasms\\api\\model\\nc\\query\\": "hispasms/api/model/nc/query/",
+      "hispasms\\api\\model\\sms\\": "hispasms/api/model/sms/",
+      "hispasms\\api\\model\\sms\\mo\\": "hispasms/api/model/sms/mo/",
+      "hispasms\\api\\model\\sms\\mo\\logs\\": "hispasms/api/model/sms/mo/logs/",
+      "hispasms\\api\\model\\sms\\mo\\reports\\": "hispasms/api/model/sms/mo/reports/",
+      "hispasms\\api\\model\\sms\\mt\\": "hispasms/api/model/sms/mt/",
+      "hispasms\\api\\model\\sms\\mt\\logs\\": "hispasms/api/model/sms/mt/logs/",
+      "hispasms\\api\\model\\sms\\mt\\reports\\": "hispasms/api/model/sms/mt/reports/",
+      "hispasms\\api\\model\\sms\\mt\\send\\": "hispasms/api/model/sms/mt/send/",
+      "hispasms\\api\\model\\sms\\mt\\send\\binary\\": "hispasms/api/model/sms/mt/send/binary/",
+      "hispasms\\api\\model\\sms\\mt\\send\\textual\\": "hispasms/api/model/sms/mt/send/textual/"
+    }
+  }
+}

@@ -10,7 +10,7 @@
 For using HispaSMS API PHP client, you have to add the following to your `composer.json` file:
 
 	"require": {
-		"hispasms/hispasms-api-php-client": "dev-master"
+		"hispasms/hispasms_api_php_client": "dev-master"
 	}
 
 and run `composer install` command inside the project's root folder.

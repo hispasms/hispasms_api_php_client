@@ -1,4 +1,4 @@
-# HispaSMS API PHP client 
+# HispaSMS API PHP client
 
 ## Prerequisites
 
